@@ -1,5 +1,5 @@
 {
-  "name": "MV3 Migration - content script example",
+  "name": "Ankify - Japanese to English Selection",
   "version": "0.1",
   "manifest_version": 3,
   "background": {
@@ -11,6 +11,7 @@
     "webNavigation",
     "activeTab",
     "scripting",
+    "downloads",
     "storage",
     "tabs"
   ],

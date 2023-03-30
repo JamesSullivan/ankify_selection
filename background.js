@@ -1,3 +1,4 @@
+
 //Setting up the function to open the new tab
 function newTab(info,tab)
 {
@@ -40,6 +41,11 @@ chrome.webNavigation.onDOMContentLoaded.addListener(async ({ tabId, url }) => {
 		});
 	      
 	}, 2000);
+
+	// var imgurl = "https://www.google.com.hk/images/srpr/logo11w.png";
+	// chrome.downloads.download({url:imgurl},function(downloadId){
+	//     console.log("download begin, the downId is:" + downloadId);
+	// });
  });
       
 
