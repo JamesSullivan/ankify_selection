@@ -29,7 +29,11 @@ While using Chrome select any word and then right click and select `Ankify Selec
 
 This will open the Google Translation Tab and save a file named after the word selected to the Downloads folder. This file can then be imported into Anki using File -> Import.
 
-<video src="https://github.com/JamesSullivan/ankify_selection/usage.mov" controls="controls" style="max-width: 730px;"></video>
+
+
+https://user-images.githubusercontent.com/1272400/232478064-7eaa5f60-1023-4b31-af0a-137fcf0871eb.mov
+
+
 
 ## References
 - [https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/)
