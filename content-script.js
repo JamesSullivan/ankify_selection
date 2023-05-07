@@ -24,7 +24,8 @@ const downloadFile = (content) => {
   const link = document.createElement("a");
   const file = new Blob([content], { type: 'text/plain' });
   link.href = URL.createObjectURL(file);
-  link.download = reading + ".txt";
+  fileName = reading.replace('\'', '') + ".txt"
+  link.download = fileName;
   link.click();
   URL.revokeObjectURL(link.href);
 };
